@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "featured_product": {
@@ -6,32 +15,115 @@
         "intro": {
           "type": "text",
           "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
             "text_1": "A PROXIMA CORRIDA COMECA AQUI",
             "text_2": "Indicado pelo fornecedor para criancas a partir de 5 anos",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
             "icon_1": "sports_esports",
+            "filled_icon_1": false,
             "icon_2": "light_mode",
-            "icon_3": "auto_awesome"
+            "filled_icon_2": false,
+            "icon_3": "auto_awesome",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
           }
         },
         "title": {
           "type": "title",
           "settings": {
-            "text_size": "h1"
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 15
           }
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+            "layout": "price_first",
+            "price_color": "accent-1",
+            "compare_price_color": "text",
+            "displayed_badge": "sale",
+            "icon_scale": 140,
+            "custom_badge_text": "[icon_1] SPECIAL OFFER",
+            "icon_1": "redeem",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
-          "settings": {}
+          "settings": {
+            "picker_types": "pills, pills, pills",
+            "custom_labels": "",
+            "disable_prepend": false,
+            "swatches_size": "medium",
+            "swatches_border_radius": 100,
+            "swatches_custom_colors": "disabled",
+            "swatches_custom_colors_list": "#000000, #FFFFFF",
+            "breaks_style": "normal",
+            "breaks_headline": "BUNDLE & SAVE",
+            "breaks_display_selected_indicator": true,
+            "breaks_border_radius": 10,
+            "breaks_border_width": 2,
+            "breaks_color_scheme": "accent-1",
+            "breaks_badges": "[empty], Most popular, [empty]",
+            "breaks_badge_style": "1",
+            "breaks_badge_color": "accent-1",
+            "breaks_displayed_images": "none",
+            "breaks_custom_images": "",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_vertical_images_position": "top",
+            "breaks_vertical_prices_layout": "vertical",
+            "breaks_labels": "[name], [name], [name]",
+            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
+            "breaks_benefit_position": "top",
+            "breaks_benefit_style": "outlined",
+            "breaks_benefit_color": "accent-1",
+            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
+            "breaks_price_texts": "[price], [price], [price]",
+            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
-            "display_price": true
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": true,
+            "enable_custom_color": false,
+            "custom_color": "#dd1d1d",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 24
           }
         }
       },
@@ -43,10 +135,20 @@
         "buy_buttons"
       ],
       "settings": {
-        "product": "shopify://products/expert-1-18-scale-4-channel-2-4ghz-remote-control-race-car-with-spray-effect-led-lights-720p-hd-video-ready-to-go-for-boys-girls",
+        "display_id": false,
+        "visibility": "always-display",
+        "product": "expert-1-18-scale-4-channel-2-4ghz-remote-control-race-car-with-spray-effect-led-lights-720p-hd-video-ready-to-go-for-boys-girls",
         "color_scheme": "background-1",
+        "secondary_background": false,
         "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
         "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "mobile_media_corner_radius": 12,
+        "full_media_width": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -58,6 +160,7 @@
           "type": "column",
           "settings": {
             "icon": "straighten",
+            "filled_icon": false,
             "title": "Escala 1:18",
             "text": "<p>Carrinho de corrida em escala compacta.</p>"
           }
@@ -66,6 +169,7 @@
           "type": "column",
           "settings": {
             "icon": "sports_esports",
+            "filled_icon": false,
             "title": "Controle 2,4 GHz",
             "text": "<p>Controle remoto com 4 canais.</p>"
           }
@@ -74,6 +178,7 @@
           "type": "column",
           "settings": {
             "icon": "water",
+            "filled_icon": false,
             "title": "Efeito spray",
             "text": "<p>Recurso de spray para deixar a brincadeira mais interativa.</p>"
           }
@@ -82,6 +187,7 @@
           "type": "column",
           "settings": {
             "icon": "light_mode",
+            "filled_icon": false,
             "title": "Luzes LED",
             "text": "<p>Iluminacao integrada ao carrinho.</p>"
           }
@@ -94,15 +200,47 @@
         "lights"
       ],
       "settings": {
+        "display_id": false,
+        "visibility": "always-display",
         "title": "Detalhes que fazem a corrida",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h2",
+        "text": "",
         "color_scheme": "background-1",
         "icon_layout": "vertical",
+        "icon_size": "medium",
+        "icon_color": "accent-1",
+        "cards_color_scheme": "background-1",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
         "columns_desktop": 4,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
         "columns_mobile": "2",
         "slider_mobile": false,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2e2a39"
       }
     },
     "product_faq": {
@@ -113,7 +251,9 @@
           "settings": {
             "heading": "Qual e a idade recomendada?",
             "icon": "child_care",
-            "row_content": "<p>O fornecedor informou que o brinquedo e indicado para criancas a partir de 5 anos.</p>"
+            "filled_icon": false,
+            "row_content": "<p>O fornecedor informou que o brinquedo e indicado para criancas a partir de 5 anos.</p>",
+            "page": ""
           }
         },
         "use": {
@@ -121,7 +261,9 @@
           "settings": {
             "heading": "Onde posso usar o carrinho?",
             "icon": "home",
-            "row_content": "<p>A ficha tecnica cadastrada na loja informa uso em ambientes internos.</p>"
+            "filled_icon": false,
+            "row_content": "<p>A ficha tecnica cadastrada na loja informa uso em ambientes internos.</p>",
+            "page": ""
           }
         },
         "remote": {
@@ -129,7 +271,9 @@
           "settings": {
             "heading": "Como funciona o controle?",
             "icon": "settings_remote",
-            "row_content": "<p>O produto usa controle remoto de 2,4 GHz com 4 canais, conforme a ficha tecnica.</p>"
+            "filled_icon": false,
+            "row_content": "<p>O produto usa controle remoto de 2,4 GHz com 4 canais, conforme a ficha tecnica.</p>",
+            "page": ""
           }
         }
       },
@@ -139,14 +283,31 @@
         "remote"
       ],
       "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "caption": "",
         "title": "Duvidas antes da primeira corrida",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h2",
         "heading_alignment": "center",
+        "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
+        "video_muted_autoplay": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "row_heading_size": "medium",
+        "collapse_icon": "carret",
+        "display_top_border": true,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_contaner_colors_background": "#ffffff",
+        "custom_container_gradient_background": "",
+        "custom_contaner_colors_text": "#2e2a39"
       }
     }
   },
