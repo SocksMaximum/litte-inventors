@@ -1,19 +1,28 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "animations_type": "GGkLhoTOiV67l21Pb1r8JxbwGAkXLmer7YrABSJ9+A9EXpMu2rSrjF9lHa0vqrWGeeDHu7qtpr+mgxIPPKrM0ejIby9ZNuJF4dFk6amcBZ0jotWApqjdOhQIhMWQVZ0794EEN3Gp6q+hiFhBjWHj1+pTBR3xtiz1jODSHRCNTCGlXN7Iu8CDFs/VLut3g5H43vDSZMIwAJMurqV3IK5GOHTrH1NdIVG0H3QcA9//zSQlxswDRMsm5bamaw9MygihDMlZQ6QlPFSP2VFmaUrRhvwHgDWkOcFtLkvV1HQqnzdRA3AbzmzffCiXn1Gkd7DwMBp/kXuCvSCHt9TT0ZQbA5CyZBX5SXu5n3utfkf4ZEYF+ckSufFydtJWhrRuDGuKYruLRto9jNPdruIZvchs7Q==",
     "disable_inspect": true,
     "country_list_function": "block",
     "country_list": "",
-    "logo": "shopify://shop_images/65e8a9.png",
+    "logo": "shopify://shop_images/Little_Inventors.png",
     "logo_width": 170,
     "mobile_logo_width": 130,
-    "colors_solid_button_labels": "#12335B",
-    "colors_accent_1": "#FFD21F",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#0BC1DF",
     "gradient_accent_1": "",
-    "colors_accent_2": "#12335B",
-    "gradient_accent_2": "",
-    "colors_text": "#12335B",
-    "colors_outline_button_labels": "#12335B",
+    "colors_accent_2": "#6d388b",
+    "gradient_accent_2": "linear-gradient(54deg, rgba(109, 56, 139, 1) 14%, rgba(105, 14, 14, 1) 85%)",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#6d388b",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
     "colors_background_2": "#f3f3f3",
@@ -83,7 +92,7 @@
     "card_text_alignment": "center",
     "card_color_scheme": "background-1",
     "product_cards_badge_push_sides": true,
-    "product_cards_custom_badges_list": "",
+    "product_cards_custom_badges_list": "BEST DEAL, BEST SELLER, [percentage] OFF",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 12,
@@ -164,17 +173,17 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "checkout_accent_color": "#FFD21F",
-    "checkout_button_color": "#FFD21F",
+    "checkout_accent_color": "#dd1d1d",
+    "checkout_button_color": "#dd1d1d",
     "fav_collection": "GGkLhoTOiV67l21Pb1r8JxbwGAkXLmer7YrABSJ9+A9EXpMu2rSrjF9lHa0vqrWGeeDHu7qtpr+mgxIPPKrM0ejIby9ZNuJF4dFk6amcBZ0jotWApqjdOhQIhMWQVZ0794EEN3Gp6q+hiFhBjWHj1+pTBR3xtiz1jODSHRCNTCGlXN7Iu8CDFs/VLut3g5H43vDSZMIwAJMurqV3IK5GOHTrH1NdIVG0H3QcA9//zSQlxswDRMsm5bamaw9MygihDMlZQ6QlPFSP2VFmaUrRhvwHgDWkOcFtLkvV1HQqnzdRA3AbzmzffCiXn1Gkd7DwMBp/kXuCvSCHt9TT0ZQbA5CyZBX5SXu5n3utfkf4ZEYF+ckSufFydtJWhrRuDGuKYruLRto9jNPdruIZvchs7Q==",
     "show_cart_payment_badges": false,
     "cart_trust_badges_width": 100,
     "enable_cart_discount": false,
-    "enable_cart_timer": false,
-    "cart_timer_text": "",
-    "enable_cart_progress_bar": false,
-    "cart_progress_message": "",
-    "cart_progress_success_message": "",
+    "enable_cart_timer": true,
+    "cart_timer_text": "<strong>Cart reserved for [timer] more minutes!</strong>",
+    "enable_cart_progress_bar": true,
+    "cart_progress_message": "Spend [amount] more to get FREE shipping!",
+    "cart_progress_success_message": "Congrats! You get FREE shipping! 🎉",
     "cart_progress_icon": "local_shipping",
     "enable_cart_upsell_1": false,
     "cart_upsell_1_product": "thedogface-designer-dog-jacket",
