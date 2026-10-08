@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "featured_product": {
@@ -18,12 +9,12 @@
             "mobile_text_size": 14,
             "desktop_text_size": 16,
             "alignment": "left",
-            "text_color": "#121212",
-            "text_1": "A PROXIMA CORRIDA COMECA AQUI",
-            "text_2": "Indicado pelo fornecedor para criancas a partir de 5 anos",
+            "text_color": "#12335B",
+            "text_1": "UNA IDEA PARA REGALAR Y COMPARTIR",
+            "text_2": "Coche teledirigido con luces LED y efecto spray. Recomendado por el proveedor a partir de 5 años.",
             "text_3": "",
             "icon_scale": 120,
-            "icon_color": "#121212",
+            "icon_color": "#12335B",
             "icon_1": "sports_esports",
             "filled_icon_1": false,
             "icon_2": "light_mode",
@@ -35,11 +26,11 @@
             "column_gap": 3,
             "enable_bg": false,
             "bg_color": "#f3f3f3",
-            "corner_radius": 40,
+            "corner_radius": 12,
             "padding": 3,
             "border_size": 0,
             "border_color": "#b7b7b7",
-            "margin_top": 15,
+            "margin_top": 0,
             "margin_bottom": 15
           }
         },
@@ -59,71 +50,41 @@
             "layout": "price_first",
             "price_color": "accent-1",
             "compare_price_color": "text",
-            "displayed_badge": "sale",
-            "icon_scale": 140,
-            "custom_badge_text": "[icon_1] SPECIAL OFFER",
-            "icon_1": "redeem",
-            "filled_icon_1": false,
-            "icon_2": "check_circle",
-            "filled_icon_2": false,
-            "margin_top": 15,
+            "margin_top": 8,
             "margin_bottom": 15
           }
         },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_types": "pills, pills, pills",
-            "custom_labels": "",
+            "picker_types": "pills, dropdown, dropdown",
+            "custom_labels": "[name] - [selected]",
             "disable_prepend": false,
             "swatches_size": "medium",
             "swatches_border_radius": 100,
             "swatches_custom_colors": "disabled",
             "swatches_custom_colors_list": "#000000, #FFFFFF",
-            "breaks_style": "normal",
-            "breaks_headline": "BUNDLE & SAVE",
-            "breaks_display_selected_indicator": true,
-            "breaks_border_radius": 10,
-            "breaks_border_width": 2,
-            "breaks_color_scheme": "accent-1",
-            "breaks_badges": "[empty], Most popular, [empty]",
-            "breaks_badge_style": "1",
-            "breaks_badge_color": "accent-1",
-            "breaks_displayed_images": "none",
-            "breaks_custom_images": "",
-            "breaks_image_width": 70,
-            "breaks_space_images": true,
-            "breaks_vertical_images_position": "top",
-            "breaks_vertical_prices_layout": "vertical",
-            "breaks_labels": "[name], [name], [name]",
-            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
-            "breaks_benefit_position": "top",
-            "breaks_benefit_style": "outlined",
-            "breaks_benefit_color": "accent-1",
-            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
-            "breaks_price_texts": "[price], [price], [price]",
-            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
-            "margin_top": 15,
+            "margin_top": 10,
             "margin_bottom": 15
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
+            "show_dynamic_checkout": true,
             "skip_cart": false,
-            "uppercase_text": true,
+            "uppercase_text": false,
             "icon_scale": 120,
             "icon_spacing": 10,
             "display_price": true,
             "enable_custom_color": false,
-            "custom_color": "#dd1d1d",
+            "custom_color": "#FFD21F",
             "enable_secondary_btn": false,
-            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_label": "Comprar ahora",
             "secondary_btn_enable_custom_color": false,
-            "secondary_btn_custom_color": "#dd1d1d",
-            "margin_top": 24,
-            "margin_bottom": 24
+            "secondary_btn_custom_color": "#FFD21F",
+            "margin_top": 16,
+            "margin_bottom": 12
           }
         }
       },
@@ -149,8 +110,8 @@
         "enable_video_looping": false,
         "mobile_media_corner_radius": 12,
         "full_media_width": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 28,
+        "padding_bottom": 32
       }
     },
     "product_highlights": {
@@ -162,7 +123,7 @@
             "icon": "straighten",
             "filled_icon": false,
             "title": "Escala 1:18",
-            "text": "<p>Carrinho de corrida em escala compacta.</p>"
+            "text": "<p>Un coche de carreras a escala compacta.</p>"
           }
         },
         "control": {
@@ -170,17 +131,8 @@
           "settings": {
             "icon": "sports_esports",
             "filled_icon": false,
-            "title": "Controle 2,4 GHz",
-            "text": "<p>Controle remoto com 4 canais.</p>"
-          }
-        },
-        "spray": {
-          "type": "column",
-          "settings": {
-            "icon": "water",
-            "filled_icon": false,
-            "title": "Efeito spray",
-            "text": "<p>Recurso de spray para deixar a brincadeira mais interativa.</p>"
+            "title": "Control de 2,4 GHz",
+            "text": "<p>Mando remoto de 4 canales.</p>"
           }
         },
         "lights": {
@@ -188,59 +140,46 @@
           "settings": {
             "icon": "light_mode",
             "filled_icon": false,
-            "title": "Luzes LED",
-            "text": "<p>Iluminacao integrada ao carrinho.</p>"
+            "title": "Luces LED",
+            "text": "<p>Iluminación integrada en el coche.</p>"
+          }
+        },
+        "spray": {
+          "type": "column",
+          "settings": {
+            "icon": "water",
+            "filled_icon": false,
+            "title": "Efecto spray",
+            "text": "<p>Un detalle visual para acompañar el juego.</p>"
           }
         }
       },
       "block_order": [
         "scale",
         "control",
-        "spray",
-        "lights"
+        "lights",
+        "spray"
       ],
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Detalhes que fazem a corrida",
-        "title_highlight_color": "#6d388b",
+        "title": "Detalles para disfrutar cada carrera",
+        "title_highlight_color": "#12335B",
         "heading_size": "h2",
         "text": "",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "icon_layout": "vertical",
         "icon_size": "medium",
-        "icon_color": "accent-1",
+        "icon_color": "accent-2",
         "cards_color_scheme": "background-1",
         "type": "slide",
         "autoplay": false,
-        "autoplay_speed": 5,
-        "arrows_color_scheme": "inverse",
-        "transparent_arrows": true,
-        "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
         "columns_desktop": 4,
         "slider_desktop": false,
-        "per_move_desktop": 1,
-        "desktop_spacing": 40,
-        "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
-        "desktop_adaptive_height": false,
-        "desktop_dots_position": "under",
-        "desktop_arrows_position": "sides",
         "columns_mobile": "2",
         "slider_mobile": false,
-        "enable_mobile_preview": false,
-        "mobile_adaptive_height": false,
-        "mobile_dots_position": "under",
-        "mobile_arrows_position": "under",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_cards_colors_background": "#f3f3f3",
-        "custom_cards_gradient_background": "",
-        "custom_cards_colors_text": "#2e2a39"
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     },
     "product_faq": {
@@ -249,71 +188,99 @@
         "age": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Qual e a idade recomendada?",
+            "heading": "¿Qué edad se recomienda?",
             "icon": "child_care",
             "filled_icon": false,
-            "row_content": "<p>O fornecedor informou que o brinquedo e indicado para criancas a partir de 5 anos.</p>",
-            "page": ""
+            "row_content": "<p>El proveedor recomienda el juguete para niños a partir de 5 años.</p>"
           }
         },
         "use": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Onde posso usar o carrinho?",
+            "heading": "¿Dónde se puede utilizar?",
             "icon": "home",
             "filled_icon": false,
-            "row_content": "<p>A ficha tecnica cadastrada na loja informa uso em ambientes internos.</p>",
-            "page": ""
+            "row_content": "<p>La ficha técnica del producto indica que está pensado para uso en interiores.</p>"
           }
         },
-        "remote": {
+        "specs": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Como funciona o controle?",
-            "icon": "settings_remote",
+            "heading": "¿Qué características tiene?",
+            "icon": "info",
             "filled_icon": false,
-            "row_content": "<p>O produto usa controle remoto de 2,4 GHz com 4 canais, conforme a ficha tecnica.</p>",
-            "page": ""
+            "row_content": "<p>Escala 1:18, control remoto de 2,4 GHz con 4 canales, luces LED y efecto spray.</p>"
           }
         }
       },
       "block_order": [
         "age",
         "use",
-        "remote"
+        "specs"
       ],
       "settings": {
         "display_id": false,
         "visibility": "always-display",
         "caption": "",
-        "title": "Duvidas antes da primeira corrida",
-        "title_highlight_color": "#6d388b",
+        "title": "Resolvemos tus dudas",
+        "title_highlight_color": "#12335B",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
-        "video_muted_autoplay": true,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
         "row_heading_size": "medium",
-        "collapse_icon": "carret",
+        "collapse_icon": "plus",
         "display_top_border": true,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_contaner_colors_background": "#ffffff",
-        "custom_container_gradient_background": "",
-        "custom_contaner_colors_text": "#2e2a39"
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Ideas para imaginar, jugar y regalar",
+            "title_highlight_color": "#12335B",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Suscríbete para recibir novedades de Little Inventors.</p>"
+          }
+        },
+        "email": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "button_type": "solid",
+        "button_label": "Suscribirme",
+        "button_style_secondary": false,
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },
   "order": [
     "featured_product",
     "product_highlights",
-    "product_faq"
+    "product_faq",
+    "newsletter"
   ]
 }
